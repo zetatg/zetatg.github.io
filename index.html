@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonders of China</title>
+    <!-- Step 2: CSS file linked correctly -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Step 2: Skip to Main Content link (anchors to id="main-content" below) -->
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+        <h1>Wonders of China</h1>
+    </header>
+
+    <!-- Step 4 & 5: nav is inline-block at 80%; logo image inside nav uses descendant selector (10%) -->
+    <nav>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+             alt="Flag of China">
+        <a href="index.html">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#highlights">Highlights</a>
+    </nav>
+
+    <!-- Step 2: id added to main tag -->
+    <main id="main-content">
+
+        <h2>Top Places to Visit</h2>
+        <p>China is home to some of the most breathtaking landmarks and landscapes in the world:</p>
+
+        <!-- Step 3: li styling is commented out in the CSS file -->
+        <ul>
+            <li>The Great Wall of China</li>
+            <li>The Forbidden City in Beijing</li>
+            <li>Zhangjiajie floating mountains</li>
+            <li>Li River and Guilin karst hills</li>
+            <li>Terracotta Army in Xi'an</li>
+        </ul>
+
+        <!-- Steps 6, 7, 8: Grid class — two columns ~40% each, images 100% wide -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="grid">
+
+                <div>
+                    <img src="https://images.pexels.com/photos/18709771/pexels-photo-18709771.jpeg"
+                         alt="The Great Wall of China stretching across green mountain ridges">
+                    <p>The Great Wall of China</p>
+                </div>
+
+                <div>
+                    <img src="https://images.pexels.com/photos/17642910/pexels-photo-17642910.jpeg"
+                         alt="Aerial view of the Forbidden City palace complex in Beijing">
+                    <p>The Forbidden City, Beijing</p>
+                </div>
+
+                <div>
+                    <img src="https://images.pexels.com/photos/34683510/pexels-photo-34683510.jpeg"
+                         alt="Tall sandstone pillar mountains rising through clouds in Zhangjiajie National Forest Park">
+                    <p>Zhangjiajie National Forest Park</p>
+                </div>
+
+                <div>
+                    <img src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg"
+                         alt="Misty green karst mountains rising along the Li River near Guilin">
+                    <p>Li River &amp; Guilin Karst Hills</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Step 9: Flex class — flex layout with wrap and centered items -->
+        <section id="highlights">
+            <h2>Quick Highlights</h2>
+            <div class="flex">
+                <img src="https://images.pexels.com/photos/18709771/pexels-photo-18709771.jpeg"
+                     alt="The Great Wall of China">
+                <img src="https://images.pexels.com/photos/17642910/pexels-photo-17642910.jpeg"
+                     alt="The Forbidden City in Beijing">
+                <img src="https://images.pexels.com/photos/34683510/pexels-photo-34683510.jpeg"
+                     alt="Zhangjiajie pillar mountains in fog">
+                <img src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg"
+                     alt="Li River karst landscape">
+            </div>
+        </section>
+
+        <p>Learn more at <a href="https://www.chinahighlights.com" target="_blank">China Highlights Travel Guide</a>.</p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wonders of China. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
